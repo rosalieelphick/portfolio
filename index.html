@@ -4,11 +4,141 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,300i" rel="stylesheet">
 	<link rel="stylesheet" href="public/styles/style.css"
 </head>
 <body>
+	
+	<header>
+		<nav>
+			<div class="wrapper">
+				<!-- <ul class="logoContainer">
+					<li class="logo">logo</li>
+				</ul> -->
+				<ul class="navBar">	
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
 
-	<h1>hello world!</h1>
+		<div class="headerImage">
+			<img src="background.png" alt="">
+		</div>
+
+		<div class="titleContainer wrapper">
+			<h2>Rosie</h2>
+			<h2>Elphick</h2>
+			<h3>front end developer</h3>
+			<a href="#about" class="startArrow">
+				<img class="arrow" src="arrow.jpg" alt="">
+			</a>
+		</div>
+
+	</header>
+
+	<section id="about" class="about">
+		<div class="wrapper">
+			<h4>about</h4>
+		</div>
+
+		<div class="imageContainer">
+
+			<div class="aboutContainer">
+				<div class="imagePlaceholder">
+					<img class="profile" src="profile.jpg" alt="">
+				</div>
+				<div class="aboutText">
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore.</p>
+				</div>
+			</div>
+
+			<div class="starContainer">
+				<img class="star star1" src="star1.jpg" alt="">
+				<img class="star star3" src="star3.jpg" alt="">
+				<img class="star star2" src="star2.jpg" alt="">
+			</div>
+
+			
+
+			<div class="backgroundPattern"></div>
+
+		</div>
+
+	</section>
+
+	<section id="projects" class="projects">
+		<div class="wrapper">
+			<h4>projects</h4>
+
+			<div class="project">
+				<div class="projectText">
+					<h3>project title</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eos quos a perferendis incidunt placeat praesentium quas ex dolore odio.</p>
+				</div>
+				<div class="projectBackground"></div>
+				<div class="projectPlaceholder"></div>
+			</div>
+
+			<div class="project">
+				<div class="projectBackground projectBackgroundRight"></div>
+				<div class="projectPlaceholder projectPlaceholderLeft"></div>
+				<div class="projectText projectTextRight">
+					<h3>project title</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eos quos a perferendis incidunt placeat praesentium quas ex dolore odio.</p>
+				</div>
+			</div>
+
+			<div class="project">
+				<div class="projectText">
+					<h3>project title</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eos quos a perferendis incidunt placeat praesentium quas ex dolore odio.</p>
+				</div>
+				<div class="projectBackground"></div>
+				<div class="projectPlaceholder"></div>
+			</div>
+
+			<div class="project">
+				<div class="projectBackground projectBackgroundRight"></div>
+				<div class="projectPlaceholder projectPlaceholderLeft"></div>
+				<div class="projectText projectTextRight">
+					<h3>project title</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eos quos a perferendis incidunt placeat praesentium quas ex dolore odio.</p>
+				</div>
+			</div>
+
+
+
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="wrapper">
+			<img src="flowers.jpg" alt="">
+			<h4>Contact</h4>
+			<form action="">
+				<label for="name">Name</label>
+				<input type="text" id="name">
+
+				<label for="name">Email</label>
+				<input type="text" id="email">
+
+				<label for="message">Message</label>
+				<textarea name="" id="message"></textarea>
+
+				<label class="submitLabel" for="submit">Submit</label>
+				<input class="submitButton" type="submit" id="submit">
+
+			</form>
+		</div>
+	</section>
+
+
+
 	<script src="public/scripts/app.js"></script>
 </body>
 </html>

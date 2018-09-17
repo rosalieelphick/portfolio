@@ -1,0 +1,284 @@
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    color: lightgrey;
+    transition: all 0.3s;
+    &:hover {
+        color: black;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+}
+
+.logoContainer {
+    flex-basis: calc(15% + 60px);
+    margin-left: 15%;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    
+    border: solid 2px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar {
+    align-self: flex-end;
+    flex-basis: 75%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 20px;
+    padding-right: 0;
+    height: 100%;
+}
+
+.navBar li {
+    padding-left: 40px;
+}
+
+.headerImage {
+    width: 70%;
+    height: 600px;
+    position: relative;
+}
+
+.headerImage img {
+    position: absolute;
+    right: 100px;
+}
+
+
+.logo {
+    align-self: flex-start;
+}
+
+.titleContainer {
+    position: relative;
+    top: -250px;
+}
+
+h2 {
+    margin: 0;
+    text-align: right;
+    font-size: 6.5rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+h3 {
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.startArrow {
+    position: absolute;
+    right: 75px;
+    bottom: -250px;
+}
+
+.arrow {
+    width: 150px;
+}
+
+// ABOUT PAGE
+
+.about {
+    margin-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+}
+
+h4 {
+    font-size: 4rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.backgroundPattern {
+    width: 60%;
+    height: 600px;
+    background-color: whitesmoke;
+    // background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, white 10px, white 20px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+}
+
+.aboutText {
+    margin-left: 55%;
+    padding: 20px 40px;
+}
+
+.aboutContainer {
+    display: flex;
+}
+
+.imageContainer .profile {
+    width: 900px;
+}
+
+.aboutText {
+    flex-basis: 45%;
+    height: 500px;
+    margin: 0;
+}
+
+.starContainer {
+    position: absolute;
+    right: 0;
+    width: 45%;
+    top: 600px;
+    padding-left: 90px;
+}
+
+
+.star {
+    width: 100px;
+    height: auto;
+    margin: 40px 40px;
+}
+
+.star2 {
+    right: 0;
+}
+
+
+// PROJECTS
+
+.projects {
+    margin-bottom: 500px;
+}
+.projects h4 {
+    text-align: right;
+}
+
+// .backgroundPattern {
+//     height: 550px;
+//     background-image: url("background.jpg");
+//     background-size: contain;
+// }
+
+.project {
+    height: 500px;   
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.projectBackground  {
+    height: 100%;
+    width: 80%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+}
+
+.projectPlaceholder {
+    width: 50%;
+    height: 70%;
+    background-color: grey;
+}
+
+.projectPlaceholderLeft {
+    position: absolute;
+    left: 0;
+}
+
+.projectBackgroundRight {
+    left: 0;
+}
+
+.projectText {
+    width: 50%;
+}
+
+.projectTextRight {
+    text-align: right;
+    width: 100%;
+    margin-left: 50%;
+}
+
+.projectText h3 {
+    text-align: left;
+}
+
+.projectTextRight h3 {
+    text-align: right;
+}
+
+// CONTACT
+
+.contact {
+    padding-bottom: 200px;
+    position: relative;
+}
+
+.contact input {
+    width: 100%;
+    padding: 20px;
+    font-size: 1.4rem;
+    margin: 10px 0 20px 0;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    font-size: 1.4rem;
+    margin: 10px 0 20px 0;
+    border: solid 1px lightgrey;
+}
+
+.contact label {
+    font-size: 1.4rem;
+}
+
+.submitLabel {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.submitButton {
+    border: 0;
+}
+
+.contact img {
+    width: 400px;
+    position: absolute;
+    right: 200px;
+    top: -400px;
+}
